@@ -11,7 +11,8 @@ const CaseStudies = () => {
       color: "#ffa217",
       headBackground: "#fff6e9",
       topic: "Work name here",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit ad quod ex quae sapiente quis, obcaecati accusamus quibusdam veritatis!",
+
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, obcaecati nulla beatae expedita eum culpa dolorem ipsa reiciendis accusamus tempora! Ratione nisi explicabo dolor quisquam accusamus voluptatem dicta corrupti rem inventore aliquid, enim beatae repudiandae pariatur dolores quas adipisci officiis.",
       label: "View case study >",
       src: first,
       shadow_color: "#FFA2171A",
@@ -21,7 +22,7 @@ const CaseStudies = () => {
       color: "#000aff",
       headBackground: "#d0e6ff",
       topic: "Work name here",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit ad quod ex quae sapiente quis, obcaecati accusamus quibusdam veritatis!",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, obcaecati nulla beatae expedita eum culpa dolorem ipsa reiciendis accusamus tempora! Ratione nisi explicabo dolor quisquam accusamus voluptatem dicta corrupti rem inventore aliquid, enim beatae repudiandae pariatur dolores quas adipisci officiis.",
       label: "View case study >",
       src: second,
       shadow_color: "#000AFF1A",
@@ -31,7 +32,7 @@ const CaseStudies = () => {
       color: "#2ab090",
       headBackground: "#e0fff8",
       topic: "Work name here",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit ad quod ex quae sapiente quis, obcaecati accusamus quibusdam veritatis!",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, obcaecati nulla beatae expedita eum culpa dolorem ipsa reiciendis accusamus tempora! Ratione nisi explicabo dolor quisquam accusamus voluptatem dicta corrupti rem inventore aliquid, enim beatae repudiandae pariatur dolores quas adipisci officiis.",
       label: "View case study >",
       src: third,
       shadow_color: "#2AB0901A",
@@ -48,6 +49,7 @@ const CaseStudies = () => {
         gap: "50px",
         backgroundColor: "white",
         marginTop: "70px",
+        marginBottom: "50px",
       }}
     >
       <div
