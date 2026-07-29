@@ -1,7 +1,8 @@
 import { useState } from "react";
-import "./App.css";
+import "./index.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import CaseStudies from "./pages/CaseStudies";
 
 function App() {
   return (
@@ -13,8 +14,21 @@ function App() {
         marginTop: "-8px",
       }}
     >
-      <Navbar />
-      <Home />
+      <div
+        style={{
+          backgroundColor: "black",
+          width: "101%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          paddingBottom: "60px",
+        }}
+      >
+        <Navbar />
+        <Home />
+      </div>
+      <CaseStudies />
     </div>
   );
 }
