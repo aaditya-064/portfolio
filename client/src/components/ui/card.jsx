@@ -1,7 +1,17 @@
 import React from "react";
 import Button from "./button";
 
-const Card = ({ head, head_bg, topic, desc, label, color, src }) => {
+const Card = ({
+  head,
+  head_bg,
+  topic,
+  desc,
+  label,
+  color,
+  src,
+  border,
+  shadow_color,
+}) => {
   return (
     <div
       style={{
@@ -14,9 +24,14 @@ const Card = ({ head, head_bg, topic, desc, label, color, src }) => {
       <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
         <p
           style={{
-            backgroundColor: { head_bg },
-            color: { color },
-            borderRadius: "30%",
+            backgroundColor: head_bg,
+            color: color,
+            borderRadius: "60px",
+            fontSize: "12px",
+            fontWeight: 700,
+            width: "52px",
+            textAlign: "center",
+            padding: "2px 5px",
           }}
         >
           {head}
@@ -26,6 +41,9 @@ const Card = ({ head, head_bg, topic, desc, label, color, src }) => {
             color: "#080808",
             fontSize: "24px",
             marginBottom: 0,
+            fontSize: "24px",
+            fontWeight: 800,
+            width: "192px",
           }}
         >
           {topic}
@@ -38,6 +56,7 @@ const Card = ({ head, head_bg, topic, desc, label, color, src }) => {
             letterSpacing: "1%",
             display: "block",
             width: "421px",
+            fontWeight: 400,
           }}
         >
           {desc}
@@ -46,10 +65,14 @@ const Card = ({ head, head_bg, topic, desc, label, color, src }) => {
           label={label}
           color="white"
           button_color={color}
-          padding={"20px"}
-          width="10px"
-          height="10px"
-          fontSize="10px"
+          padding={"10px 24px"}
+          width="189.89px"
+          borderRadius="4px"
+          height="38px"
+          fontSize="14px"
+          fontWeight={700}
+          boxShaow={`0px 8px 30px 0px ${shadow_color}`}
+          border={border}
         />
       </div>
       <div>

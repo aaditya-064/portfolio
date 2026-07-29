@@ -9,6 +9,12 @@ const Button = ({
   button_color,
   fontSize,
   padding,
+  borderRadius,
+  height,
+  width,
+  fontWeight,
+  boxShadow,
+  border,
 }) => {
   return (
     <div>
@@ -20,9 +26,14 @@ const Button = ({
           color: color,
           backgroundColor: button_color,
           border: "none",
-          borderRadius: "2px",
+          borderRadius: borderRadius,
           padding: padding,
           fontSize: fontSize,
+          height: height,
+          width: width,
+          fontWeight: fontWeight,
+          boxShadow: boxShadow,
+          border: border,
         }}
       >
         {label}
