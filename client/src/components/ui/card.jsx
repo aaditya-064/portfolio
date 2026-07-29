@@ -1,17 +1,7 @@
 import React from "react";
 import Button from "./button";
 
-const Card = ({
-  head,
-  head_color,
-  head_bg,
-  topic,
-  desc,
-  label,
-  color,
-  button_color,
-  src,
-}) => {
+const Card = ({ head, head_bg, topic, desc, label, color, src }) => {
   return (
     <div
       style={{
@@ -25,7 +15,7 @@ const Card = ({
         <p
           style={{
             backgroundColor: { head_bg },
-            color: { head_color },
+            color: { color },
             borderRadius: "30%",
           }}
         >
@@ -33,8 +23,8 @@ const Card = ({
         </p>
         <p
           style={{
-            color: topic_color,
-            fontSize: topic_size,
+            color: "#080808",
+            fontSize: "24px",
             marginBottom: 0,
           }}
         >
@@ -42,10 +32,12 @@ const Card = ({
         </p>
         <p
           style={{
-            color: desc_color,
-            fontSize: desc_size,
+            color: "#9C9C9C",
+            fontSize: "14px",
+            lineHeight: "24px",
+            letterSpacing: "1%",
             display: "block",
-            width: "100%",
+            width: "421px",
           }}
         >
           {desc}
@@ -53,7 +45,7 @@ const Card = ({
         <Button
           label={label}
           color="white"
-          button_color={button_color}
+          button_color={color}
           padding={"20px"}
           width="10px"
           height="10px"
@@ -64,7 +56,12 @@ const Card = ({
         <img
           src={src}
           alt=""
-          style={{ borderRadius: borderRadius, height: height }}
+          style={{
+            borderRadius: "8px",
+            height: "300px",
+            width: "500px",
+            objectFit: "cover",
+          }}
         />
       </div>
     </div>
