@@ -14,6 +14,7 @@ const CaseStudies = () => {
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit ad quod ex quae sapiente quis, obcaecati accusamus quibusdam veritatis!",
       label: "View case study >",
       src: first,
+      shadow_color: "#FFA2171A",
     },
     {
       head: "Edtech",
@@ -23,6 +24,7 @@ const CaseStudies = () => {
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit ad quod ex quae sapiente quis, obcaecati accusamus quibusdam veritatis!",
       label: "View case study >",
       src: second,
+      shadow_color: "#000AFF1A",
     },
     {
       head: "Fintech",
@@ -32,6 +34,7 @@ const CaseStudies = () => {
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis fugit ad quod ex quae sapiente quis, obcaecati accusamus quibusdam veritatis!",
       label: "View case study >",
       src: third,
+      shadow_color: "#2AB0901A",
     },
   ];
 
@@ -44,13 +47,44 @@ const CaseStudies = () => {
         alignItems: "center",
         gap: "50px",
         backgroundColor: "white",
+        marginTop: "70px",
       }}
     >
-      <div>
-        <p>Case Studies</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-          accusantium veritatis cum nesciunt nam magnam!
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "10px",
+        }}
+      >
+        <p
+          style={{
+            fontSize: "34px",
+            color: "#080808",
+            fontWeight: "800",
+            marginBottom: 0,
+          }}
+        >
+          Case Studies
+        </p>
+        <p
+          style={{
+            color: "#9C9C9C",
+            fontWeight: "400",
+            fontSize: "14px",
+            lineHeight: "24px",
+            letterSpacing: "1%",
+            width: "570px",
+            height: "72px",
+            textAlign: "center",
+            marginTop: 0,
+          }}
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, sit
+          possimus quod expedita laudantium fuga praesentium molestiae nesciunt
+          enim ab nam asperiores laboriosam blanditiis? Nobis odio laboriosam
+          tempora cum libero.
         </p>
       </div>
       <div
@@ -71,6 +105,8 @@ const CaseStudies = () => {
                 desc={item.desc}
                 label={item.label}
                 src={item.src}
+                border={`1px ${item.color}`}
+                shadow_color={item.shadow_color}
               />
             </div>
           );

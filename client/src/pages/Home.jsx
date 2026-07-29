@@ -51,6 +51,11 @@ const Home = () => {
           padding={"21px 64px"}
           button_color={"#3f8e00"}
           fontSize={"16px"}
+          width={"307.89px"}
+          height={"63px"}
+          boxShadow={"0px 8px 30px 0px #3F8E0080"}
+          fontWeight={700}
+          border={"1px #62BA1B"}
         />
       </div>
       <div>
