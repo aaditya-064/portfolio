@@ -6,12 +6,10 @@ const Button = ({
   onClick,
   type,
   color,
-  height,
-  width,
-  bg_color,
+  button_color,
+  fontSize,
   padding,
 }) => {
-  console.log(bg_color);
   return (
     <div>
       <button
@@ -20,12 +18,11 @@ const Button = ({
         className="button"
         style={{
           color: color,
-          height: height,
-          width: width,
-          backgroundColor: bg_color,
+          backgroundColor: button_color,
           border: "none",
           borderRadius: "2px",
           padding: padding,
+          fontSize: fontSize,
         }}
       >
         {label}
