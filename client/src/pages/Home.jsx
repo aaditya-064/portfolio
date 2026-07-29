@@ -9,11 +9,9 @@ const Home = () => {
     <div
       style={{
         display: "flex",
-        justifyContent: "space-around",
-        alignItems: "center",
         width: "65%",
         marginTop: "6%",
-        gap: "10%",
+        gap: "20%",
       }}
     >
       <div
