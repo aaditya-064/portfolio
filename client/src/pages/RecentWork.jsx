@@ -50,7 +50,11 @@ const RecentWork = () => {
         </p>
       </div>
       <div
-        style={{ display: "flex", justifyContent: "space-around", gap: "30px" }}
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          gap: "30px",
+        }}
       >
         {info.map((item, index) => {
           return (
