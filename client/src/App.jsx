@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import CaseStudies from "./pages/CaseStudies";
 import Testimonials from "./pages/Testimonials";
+import RecentWork from "./pages/RecentWork";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       >
         <Testimonials />
       </div>
+      <RecentWork />
     </div>
   );
 }
