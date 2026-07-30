@@ -25,7 +25,6 @@ const Button = ({
         style={{
           color: color,
           backgroundColor: button_color,
-          border: "none",
           borderRadius: borderRadius,
           padding: padding,
           fontSize: fontSize,
