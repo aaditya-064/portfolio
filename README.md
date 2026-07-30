@@ -1,7 +1,7 @@
 # 🚀 Developer Portfolio & Creative Hub
 
 > **A High-Performance, Interactive Web Showcase Built for Hack Club Macondo**  
-> _Crafted with precision, responsiveness, and clean component architecture._
+> _Crafted with precision, and clean component architecture._
 
 ---
 
@@ -22,7 +22,6 @@ Whether you're exploring recent web software, checking out command-line tools, o
   - Custom top-aligned placeholders and `border-box` layout models for pixel-perfect alignment across all browsers.
   - Interactive submit buttons with custom drop-shadow highlights (`box-shadow: 0px 8px 30px #3F8E004D`).
 - ⚡ **Lightning Fast Performance:** Minimal overhead with clean styling, zero bloated visual libraries, and fully fluid layouts.
-- 📱 **Responsive Design:** Optimized for mobile screens, tablets, and desktop displays.
 
 ---
 
