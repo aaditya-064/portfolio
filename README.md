@@ -1,57 +1,53 @@
-# 🚀 Developer Portfolio & Creative Hub
+# Portfolio Website (Hack Club Macondo)
 
-> **A High-Performance, Interactive Web Showcase Built for Hack Club Macondo**  
-> _Crafted with precision, and clean component architecture._
+A clean personal portfolio built with React and custom inline styling. Designed and built for Hack Club Macondo to showcase my recent projects, software experiments, and contact info.
 
----
+## 🛠️ What I Built & Learned
 
-## 📸 Overview & Preview
+For this project, I wanted a lightweight portfolio that didn't rely on massive UI component libraries. Everything is built using functional React components and custom inline styles.
 
-Welcome to my personal developer portfolio and interactive showcase! Designed specifically for **Hack Club Macondo** (and future YSWS submissions), this project demonstrates clean UI engineering, modular React component architecture, optimized user interaction, and seamless cross-device accessibility.
+Key highlights:
 
-Whether you're exploring recent web software, checking out command-line tools, or getting in touch via the custom interactive contact portal, this portfolio serves as a central hub for all my code, designs, and hardware hacks.
+- **Custom Form Components:** Built a reusable `<Input />` component that dynamically switches between standard inputs and a `<textarea>` for multi-line messages without messing up layout spacing or box alignment.
+- **Top-Aligned Placeholders:** Fixed default browser centering on multiline text fields using explicit top padding and `box-sizing: border-box`.
+- **Dark Mode UI:** Custom dark theme with green accent buttons and soft drop shadows.
 
----
+## 📁 Project Structure
 
-## ✨ Key Features
-
-- 🎯 **Modern Component Architecture:** Built using modular React components (`<Input />`, `<Button />`, `<Card />`) with predictable, reusable props.
-- 🎨 **Sleek Dark Theme UI:** Native dark-mode aesthetics with vibrant status accents, smooth micro-interactions, and custom shadow elevations.
-- 📝 **Interactive Contact Form:**
-  - Dynamic input rendering with support for text, email, phone, and multi-line `<textarea>` fields.
-  - Custom top-aligned placeholders and `border-box` layout models for pixel-perfect alignment across all browsers.
-  - Interactive submit buttons with custom drop-shadow highlights (`box-shadow: 0px 8px 30px #3F8E004D`).
-- ⚡ **Lightning Fast Performance:** Minimal overhead with clean styling, zero bloated visual libraries, and fully fluid layouts.
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-### **Core Frontend**
-
-- **Framework:** [React.js](https://react.dev/) (Functional Components & Hooks)
-- **Styling:** Modular CSS / Inline Dynamic Styles
-- **Icons & Typography:** System font stacks with high-legibility sans-serif fallback
-
-### **Project Structure**
-
-```text
-portfolio-project/
-├── public/
-│   ├── favicon.ico
-│   └── index.html
 ├── src/
-│   ├── components/
-│   │   └── ui/
-│   │       ├── button.js       # Reusable button with custom colors/shadows
-│   │       ├── input.js        # Dynamic input & textarea component
-│   │       └── card.js         # Flexible content container
-│   ├── pages/
-│   │   ├── Contact.js          # Contact section with mapped form items
-│   │   ├── Projects.js         # Showcase gallery for YSWS projects
-│   │   └── About.js            # Bio and technical skillset overview
-│   ├── App.js                  # Main application container
-│   └── index.js                # React DOM entry point
+│ ├── components/
+│ │ └── ui/
+│ │ ├── button.js # Custom styled submit buttons
+│ │ └── input.js # Dynamic input & textarea component
+│ ├── pages/
+│ │ └── Contact.js # Contact form with mapped data items
+│ ├── App.js
+│ └── index.js
 ├── package.json
-└── README.md                   # You are here!
-```
+└── README.md
+
+## 🚀 How to Run Locally
+
+If you want to test or run this project on your machine, follow these steps:
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Installation & Execution
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone git@github.com:aaditya-064/portfolio.git
+   cd portfolio
+
+   Install dependencies:
+   => npm install
+
+   Start the development server:
+   => npm run dev
+
+   Open http://localhost:5173 in our browser to view the app
+   ```
