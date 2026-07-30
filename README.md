@@ -14,29 +14,28 @@ Key highlights:
 
 ## Project Structure
 
+client/
 ├── src/
 │ ├── components/
-│ │ ├── ui/
+│ │ └── ui/
 │ │ ├── button.js
 │ │ ├── card.js
 │ │ ├── infoCard.js
-│ │ ├── input.js
+│ │ ├── input.js  
 │ │ ├── navlinks.js
 │ │ └── work_card.js
 │ ├── pages/
-│ │ ├── CaseStudies.js
-│ │ ├── Contact.js
-│ │ ├── Home.js
+│ │ ├── CaseStudies.js  
+│ │ ├── Contact.js  
+│ │ ├── Home.js  
 │ │ ├── RecentWork.js
-│ │ └── Testimonials.js
+│ │ └── Testimonials.js  
 │ ├── App.css
-│ ├── App.jsx
+│ ├── App.jsx  
 │ ├── index.css
 │ └── main.jsx
-├── .gitignore
 ├── eslint.config.js
 ├── index.html
-├── package-lock.json
 ├── package.json
 ├── README.md
 └── vite.config.js
