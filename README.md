@@ -40,14 +40,14 @@ If you want to test or run this project on your machine, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone git@github.com:aaditya-064/portfolio.git
+   git clone [https://github.com/aaditya-064/portfolio.git] (https://github.com/aaditya-064/portfolio.git)
    cd portfolio
 
    Install dependencies:
    => npm install
 
    Start the development server:
-   => npm run dev
+   => npm start
 
    Open http://localhost:5173 in our browser to view the app
    ```
