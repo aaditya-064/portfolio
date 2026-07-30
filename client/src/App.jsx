@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import CaseStudies from "./pages/CaseStudies";
 import Testimonials from "./pages/Testimonials";
 import RecentWork from "./pages/RecentWork";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -45,6 +46,19 @@ function App() {
         <Testimonials />
       </div>
       <RecentWork />
+      <div
+        style={{
+          backgroundColor: "#080808",
+          width: "102%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          paddingBottom: "120px",
+        }}
+      >
+        <Contact />
+      </div>
     </div>
   );
 }
