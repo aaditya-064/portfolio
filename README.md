@@ -42,10 +42,11 @@ If you want to test or run this project on your machine, follow these steps:
    ```bash
    git clone [https://github.com/aaditya-064/portfolio.git] (https://github.com/aaditya-064/portfolio.git)
    cd portfolio
+   cd client
 
    Install dependencies:
    => npm install
-
+   
    Start the development server:
    => npm start
 
