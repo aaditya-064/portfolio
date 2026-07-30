@@ -60,7 +60,7 @@ If you want to test or run this project on your machine, follow these steps:
 
    Install dependencies:
    => npm install
-
+   
    Start the development server:
    => npm start
 
