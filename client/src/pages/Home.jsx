@@ -61,7 +61,13 @@ const Home = () => {
         <img
           src={profile}
           alt="my_profile"
-          style={{ border: "none", borderRadius: "50%", height: "416px" }}
+          style={{
+            border: "none",
+            borderRadius: "50%",
+            height: "416px",
+            width: "416px",
+            objectFit: "cover",
+          }}
         />
       </div>
     </div>
