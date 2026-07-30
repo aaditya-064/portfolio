@@ -18,7 +18,7 @@ function App() {
       <div
         style={{
           backgroundColor: "black",
-          width: "101%",
+          width: "102%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
@@ -33,7 +33,7 @@ function App() {
       <div
         style={{
           backgroundColor: "#080808",
-          width: "101%",
+          width: "102%",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
