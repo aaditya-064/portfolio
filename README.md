@@ -2,29 +2,44 @@
 
 A clean personal portfolio built with React and custom inline styling. Designed and built for Hack Club Macondo to showcase my recent projects, software experiments, and contact info.
 
-## 🛠️ What I Built & Learned
+## What I Built & Learned
 
 For this project, I wanted a lightweight portfolio that didn't rely on massive UI component libraries. Everything is built using functional React components and custom inline styles.
 
 Key highlights:
 
-- **Custom Form Components:** Built a reusable `<Input />` component that dynamically switches between standard inputs and a `<textarea>` for multi-line messages without messing up layout spacing or box alignment.
-- **Top-Aligned Placeholders:** Fixed default browser centering on multiline text fields using explicit top padding and `box-sizing: border-box`.
-- **Dark Mode UI:** Custom dark theme with green accent buttons and soft drop shadows.
+- **Custom Form Components**: Built a reusable `<Input />` component that dynamically switches between standard inputs and a `<textarea>` for multi-line messages without messing up layout spacing or box alignment.
+- **Top-Aligned Placeholders**: Fixed default browser centering on multiline text fields using explicit top padding and `box-sizing: border-box`.
+- **Dark Mode UI**: Custom dark theme with green accent buttons and soft drop shadows.
 
-## 📁 Project Structure
+## Project Structure
 
 ├── src/
 │ ├── components/
-│ │ └── ui/
-│ │ ├── button.js # Custom styled submit buttons
-│ │ └── input.js # Dynamic input & textarea component
+│ │ ├── ui/
+│ │ ├── button.js
+│ │ ├── card.js
+│ │ ├── infoCard.js
+│ │ ├── input.js
+│ │ ├── navlinks.js
+│ │ └── work_card.js
 │ ├── pages/
-│ │ └── Contact.js # Contact form with mapped data items
-│ ├── App.js
-│ └── index.js
+│ │ ├── CaseStudies.js
+│ │ ├── Contact.js
+│ │ ├── Home.js
+│ │ ├── RecentWork.js
+│ │ └── Testimonials.js
+│ ├── App.css
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
 ├── package.json
-└── README.md
+├── README.md
+└── vite.config.js
 
 ## 🚀 How to Run Locally
 
@@ -37,7 +52,7 @@ If you want to test or run this project on your machine, follow these steps:
 
 ### Installation & Execution
 
-1. **Clone the repository:**
+1. Clone the repository:
 
    ```bash
    git clone [https://github.com/aaditya-064/portfolio.git] (https://github.com/aaditya-064/portfolio.git)
