@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "../components/ui/card";
-import leonardo from "../assets/leonardo.png";
 import Button from "../components/ui/button";
-import profile from "../assets/leonardo.png";
+import profile from "../assets/leonardo.jpg";
 
 const Home = () => {
   return (
