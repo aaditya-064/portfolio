@@ -1,4 +1,4 @@
-# ✦ [Project Name]
+# ✦ Aaditya Shrestha
 
 > **A minimal, high-performance web experience crafted with modern frontend architecture.**
 > Clean aesthetics, fluid interactions, and zero backend overhead.
@@ -7,7 +7,7 @@
 
 ## ── Overview
 
-**[Project Name]** is a client-side web application built with a focus on refined UI/UX design, modular architecture, and instant reactivity. Operating entirely in the browser, it leverages client-side storage and optimized state management to deliver a smooth, desktop-class experience without relying on external server infrastructure.
+**Portfolio** is a client-side web application built with a focus on refined UI/UX design, modular architecture, and instant reactivity. Operating entirely in the browser, it leverages client-side storage and optimized state management to deliver a smooth, desktop-class experience without relying on external server infrastructure.
 
 ### Key Highlights
 
