@@ -1,68 +1,27 @@
-# Portfolio Website (Hack Club Macondo)
+# personal portfolio
 
-A clean personal portfolio built with React and custom inline styling. Designed and built for Hack Club Macondo to showcase my recent projects, software experiments, and contact info.
+this portfolio is sort of a demo portfolio which you can clone and create your portfolio and show your works and skills.
 
-## What I Built & Learned
+# setup in your local device (bash)
 
-For this project, I wanted a lightweight portfolio that didn't rely on massive UI component libraries. Everything is built using functional React components and custom inline styles.
+1. clone the repo and select the directory (using ssh):
 
-Key highlights:
+```
+=> git clone git@github.com:aaditya-064/portfolio.git
+=> cd portfolio
+=> cd client
+```
 
-- **Custom Form Components**: Built a reusable `<Input />` component that dynamically switches between standard inputs and a `<textarea>` for multi-line messages without messing up layout spacing or box alignment.
-- **Top-Aligned Placeholders**: Fixed default browser centering on multiline text fields using explicit top padding and `box-sizing: border-box`.
-- **Dark Mode UI**: Custom dark theme with green accent buttons and soft drop shadows.
-
-## Project Structure
-
-client/
-├── src/
-│ ├── components/
-│ │ └── ui/
-│ │ ├── button.js
-│ │ ├── card.js
-│ │ ├── infoCard.js
-│ │ ├── input.js  
-│ │ ├── navlinks.js
-│ │ └── work_card.js
-│ ├── pages/
-│ │ ├── CaseStudies.js  
-│ │ ├── Contact.js  
-│ │ ├── Home.js  
-│ │ ├── RecentWork.js
-│ │ └── Testimonials.js  
-│ ├── App.css
-│ ├── App.jsx  
-│ ├── index.css
-│ └── main.jsx
-├── eslint.config.js
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
-
-## 🚀 How to Run Locally
-
-If you want to test or run this project on your machine, follow these steps:
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation & Execution
-
-1. Clone the repository:
-
-   ```bash
-   git clone [https://github.com/aaditya-064/portfolio.git] (https://github.com/aaditya-064/portfolio.git)
-   cd portfolio
-   cd client
-
-   Install dependencies:
+2. install dependencies:
    => npm install
-   
-   Start the development server:
-   => npm start
 
-   Open http://localhost:5173 in our browser to view the app
-   ```
+3. start the server:
+   => npm run dev
+
+now, the server will run on http://localhost:5173 (or, if it says error, try http://localhost:3000 if you're using create-react-app)
+
+TECH STACK USED HERE:
+
+1. Reactjs
+2. Html
+3. CSS
