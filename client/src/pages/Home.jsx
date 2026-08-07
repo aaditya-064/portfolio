@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../components/ui/card";
 import Button from "../components/ui/button";
 import profile from "../assets/leonardo.jpg";
+import { CiFaceSmile } from "react-icons/ci";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
             marginBottom: 0,
           }}
         >
+          {/* your name goes here */}
           Aaditya Shrestha
         </p>
         <p
@@ -37,12 +39,24 @@ const Home = () => {
             width: "492px",
             lineHeight: "20px",
             wordSpacing: "5px",
+            position: "relative",
           }}
         >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos,
-          temporibus libero modi magnam itaque delectus blanditiis voluptatem ea
-          id quisquam corrupti, facere tempore fuga doloribus obcaecati nemo
-          iste dolore cum.
+          {/* you can keep your own description here just like I did */}I build
+          web stuff and mess around with AI tools. Most of my time goes into
+          tweaking projects, learning new frameworks, and fixing things I
+          accidentally broke and hour ago.
+          <span>
+            <CiFaceSmile
+              style={{
+                color: "white",
+                fontSize: "17px",
+                position: "absolute",
+                top: "42px",
+                left: "235px",
+              }}
+            />
+          </span>
         </p>
         <Button
           label={"Let's get started >"}

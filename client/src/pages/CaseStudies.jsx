@@ -5,6 +5,7 @@ import second from "../assets/2.png";
 import third from "../assets/3.png";
 
 const CaseStudies = () => {
+  // change the properties according to your projects
   const cardInfo = [
     {
       head: "Fintech",
@@ -83,6 +84,7 @@ const CaseStudies = () => {
             marginTop: 0,
           }}
         >
+          {/* Your description here */}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, sit
           possimus quod expedita laudantium fuga praesentium molestiae nesciunt
           enim ab nam asperiores laboriosam blanditiis? Nobis odio laboriosam
