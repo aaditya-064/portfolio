@@ -5,7 +5,7 @@ import second from "../assets/2.png";
 import third from "../assets/3.png";
 
 const CaseStudies = () => {
-  // change the properties according to your projects
+  // change the properties according to your projectss
   const cardInfo = [
     {
       head: "Fintech",

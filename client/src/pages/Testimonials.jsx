@@ -1,11 +1,12 @@
 import React from "react";
-import first from "../assets/testimonials/1.png";
+import first from "../assets/testimonials/1.png"; // change these images according to your requirements, this is just some demo photos
 import second from "../assets/testimonials/2.png";
 import third from "../assets/testimonials/3.png";
 import fourth from "../assets/testimonials/4.png";
 import InfoCard from "../components/ui/infoCard";
 
 const Testimonials = () => {
+  // paste the actual review here, just change the text and image (at ../assets/testmonials) and their name
   const info = [
     {
       text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, ipsam ipsa! Laboriosam, vero. Possimus fugit temporibus ea id, culpa magnam nisi nulla autem ex tenetur, quis aspernatur nemo tempora reprehenderit dolores delectus harum aliquid quibusdam.",
@@ -70,6 +71,7 @@ const Testimonials = () => {
             lineHeight: "24px",
           }}
         >
+          {/* you can describe on what basis they have appreciated your works and prove your excellency */}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
           repudiandae, voluptates sed at, exercitationem ex inventore, magni
           impedit animi officia libero magnam harum.
