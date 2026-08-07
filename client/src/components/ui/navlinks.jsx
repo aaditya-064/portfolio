@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const NavLinks = ({ label, link }) => {
   return (
     <div>
-      <Link
-        to={link}
+      <a
+        href={`${link}`}
         style={{
           letterSpacing: "1.5px",
           textDecoration: "none",
@@ -14,7 +13,7 @@ const NavLinks = ({ label, link }) => {
         }}
       >
         {label}
-      </Link>
+      </a>
     </div>
   );
 };
