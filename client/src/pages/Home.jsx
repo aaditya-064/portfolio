@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "../components/ui/card";
 import Button from "../components/ui/button";
-import profile from "../assets/leonardo.jpg";
+import profile from "../assets/leonardo.jpg"; // you can just replace your photo with this image and it's done, also keep it as the same name so that you won't have to change here
 import { CiFaceSmile } from "react-icons/ci";
 
 const Home = () => {
