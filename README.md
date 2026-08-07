@@ -1,6 +1,6 @@
 # personal portfolio
 
-this portfolio is sort of a demo portfolio which you can clone and create your portfolio and show your works and skills.
+this portfolio is sort of a demo portfolio which you can clone and create your portfolio and show your works and skills. Also, this is not responsive, I will work on it later, you can just fill up your information replacing the highlighted areas (commented) just like you do in Microsoft Word, it's simple as that, and it will automatically be changed later to look good on your phone too without you doing anything.
 
 # setup in your local device (bash)
 
