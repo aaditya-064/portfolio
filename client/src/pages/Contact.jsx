@@ -64,6 +64,7 @@ const Contact = () => {
             textAlign: "center",
           }}
         >
+          {/* here goes your contact description */}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
           praesentium laborum suscipit quidem quis? Incidunt sequi eum nulla rem
           voluptates nam fuga, magnam error illo?
