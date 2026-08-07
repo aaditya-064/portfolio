@@ -43,21 +43,21 @@ const Navbar = () => {
         }}
       >
         <Link
-          to="https://x.com/aadi_shrestha_"
+          to="https://x.com/aadi_shrestha_" // change the url to your https://x.com url
           style={{ color: "#9c9c9c" }}
           target="_blank"
         >
           <FaLinkedinIn />
         </Link>
         <Link
-          to="https://www.instagram.com/aaditya_shrestha__/"
+          to="https://www.instagram.com/aaditya_shrestha__/" // change the url to your https://www.instagram.com url
           style={{ color: "#9c9c9c" }}
           target="_blank"
         >
           <FaInstagram />
         </Link>
         <Link
-          to="https://www.linkedin.com/in/aaditya-shrestha-b4032138a"
+          to="https://www.linkedin.com/in/aaditya-shrestha-b4032138a" // change the url to your https://www.linkedin.com/in url
           style={{ color: "#9c9c9c" }}
           target="_blank"
         >
