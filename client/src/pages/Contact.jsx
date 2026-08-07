@@ -70,6 +70,7 @@ const Contact = () => {
           voluptates nam fuga, magnam error illo?
         </p>
       </div>
+      {/* the form data will be sent to mail, this feature is in pending */}
       <form
         style={{
           display: "flex",
