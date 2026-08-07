@@ -4,6 +4,8 @@ import second from "../assets/work/2.png";
 import WorkCard from "../components/ui/work_card";
 
 const RecentWork = () => {
+  // change your images in ../assets/work folder, and choose the title, desc, and label according to your requirements
+  // also, yet to implement the know more function of the button
   const info = [
     {
       src: first,
@@ -43,6 +45,7 @@ const RecentWork = () => {
             textAlign: "center",
           }}
         >
+          {/* describe about your recent works here */}
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
           veniam, facere consequuntur quibusdam dolorem voluptate amet similique
           libero, vitae sunt aperiam minus commodi vel numquam eaque accusamus
