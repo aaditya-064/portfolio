@@ -29,9 +29,13 @@ function App() {
         }}
       >
         <Navbar />
-        <Home />
+        <section id="home">
+          <Home />
+        </section>
       </div>
-      <CaseStudies />
+      <section id="case_studies">
+        <CaseStudies />
+      </section>
       <div
         style={{
           backgroundColor: "#080808",
@@ -43,9 +47,13 @@ function App() {
           paddingBottom: "60px",
         }}
       >
-        <Testimonials />
+        <section id="testimonials">
+          <Testimonials />
+        </section>
       </div>
-      <RecentWork />
+      <section id="recent_work">
+        <RecentWork />
+      </section>
       <div
         style={{
           backgroundColor: "#080808",
@@ -57,7 +65,9 @@ function App() {
           paddingBottom: "120px",
         }}
       >
-        <Contact />
+        <section id="contact">
+          <Contact />
+        </section>
       </div>
     </div>
   );
